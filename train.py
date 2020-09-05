@@ -30,7 +30,7 @@ parser.add_argument(
 
 parser.add_argument("--cuda", dest="cuda", action="store_false", help="use cuda")
 
-parser.add_argument("--skip_training", dest="skip_training", action="store_false", help="skip training")
+parser.add_argument("--skip_training", dest="skip_training", action="store_true", help="skip training")
 
 parser.add_argument("-lr", "--learning_rate", default=0.001, type=float, metavar="LR", help="learning rate")
 
